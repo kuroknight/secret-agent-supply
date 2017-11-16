@@ -1,0 +1,45 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 960px;
+}
+
+header {
+  display: flex;
+  height: 3rem;
+  background-color: black;
+}
+
+header img {
+  height: 50%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/main-banner-background.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  height: 25rem;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+
+}
+
+nav {
+  background-color: red;
+}
