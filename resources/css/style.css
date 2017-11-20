@@ -3,43 +3,131 @@ html {
 }
 
 body {
-  color: white;
-  display: flex;
-  flex-direction: column;
+  font-family: Helvetica;
 }
 
 .container {
   width: 960px;
+  margin: 0;
 }
 
 header {
   display: flex;
-  height: 3rem;
+  justify-content: center;
   background-color: black;
+  color: white;
+  height: 2.32rem;
 }
 
 header img {
-  height: 50%;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+header span {
+  padding: 0.66rem 0.5rem;
 }
 
 .banner {
   display: flex;
-  align-items: center;
+  justify-content: center;
   background-image: url(../images/main-banner-background.jpeg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 25rem;
 }
 
 .banner-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
 
+h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
 }
 
 nav {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav span {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.products .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 30%;
+  border: 4px solid black;
+}
+
+.product-item img {
+  height: 9rem;
+  margin: 2rem;
+}
+
+.product-item p {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact .container {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-item {
+  width: 35%;
+}
+
+.contact-item p {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 5rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
 }
